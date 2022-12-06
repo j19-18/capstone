@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FilmManiacs</title>
+</head>
+
+<body>
+    <section class="top-bar">
+    <div class="left-content">
+        <h2 class="title">FilmManiacs</h2>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="movies.html">Movies</a></li>
+        </ul>
+    </div>
+  
+    <div class="right-content">
+      <ul class="navigation">
+        <li><a href="FAQ2.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+
+      <div class="profile-img-box">
+        <img src="./images/profile.jpg" alt="">
+      </div>
+      <img src="./images/menu.jpeg" alt="" class="menu">
+    </div>
+  
+    </section>
+    <section class="main-container">
+      <div class="sidebar">
+        <form action="">
+         <div class="sidebar-groups">
+            <h3 class="sg-title">categories</h3>
+            <input type="checkbox" id="adventure" name="adventure" value="adventure">
+            <label for="adventure">Adventure</label><br>
+            <input type="checkbox" id="Action" name="Action" value="Action">
+            <label for="Action">Action</label><br>
+            <input type="checkbox" id="Animation" name="Animation" value="Animation">
+            <label for="Animation">Animation</label><br>
+            <input type="checkbox" id="Comedy" name="Comedy" value="Comedy">
+            <label for="Comedy">Comedy</label><br>
+            <input type="checkbox" id="Science" name="Science" value="Science">
+            <label for="Science">Science Fiction</label><br>
+            <input type="checkbox" id="Thriller" name="Thriller" value="Thriller">
+            <label for="Thriller">Thriller</label><br>
+            <input type="checkbox" id="History" name="History" value="History">
+            <label for="History">History</label><br>
+            <input type="checkbox" id="Documentary" name="Documentary" value="Documentary">
+            <label for="Documentary">Documentary</label><br>
+            <input type="checkbox" id="Fantasy" name="Fantasy" value="Fantasy">
+            <label for="Fantasy">Fantasy</label><br>
+            
+         </div>
+         <div class="sidebar-groups">
+         <h3 class="sg-title">Language</h3>
+            <input type="checkbox" id="English" name="English" value="English">
+            <label for="English">English</label><br>
+            <input type="checkbox" id="Spanish" name="Spanish" value="Spanish">
+            <label for="Spanish">Spanish</label><br>
+            <input type="checkbox" id="Tagalog" name="Tagalog" value="Tagalog">
+            <label for="Tagalog">Tagalog</label><br>
+        </div>
+         <div class="sidebar-groups">
+            <h3 class="sg-title">Time</h3>
+            <input type="radio" id="Morning" name="Morning" value="Morning">
+            <label for="Morning">Morning</label><br>
+            <input type="radio" id="Afternoon" name="Afternoon" value="Afternoon">
+            <label for="Afternoon">Afternoon</label><br>
+         </div>
+         <div class="sidebar-groups">
+            <a href="" class="btn-1 btn">Apply filter</a>
+         </div>
+
+        </form>
+      </div>
+      <div class="movies-container">
+        <div class="upcoming-img-box">
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/0-wPm99PF9U?controls=0"></iframe>            
+          <p class="upcoming-title">Upcoming Movie</p>
+            <div class="buttons">
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="current-movies">
+          <div class="current-movie">
+          <div class="cm-img-box">
+            <img src="images/avengers1.jpeg" alt="avengers 1">
+          </div>
+          <h3 class="movie-title">Avengers 2012</h3>
+          <p class="screen-name">Screen: Gold</p>
+          <div class="booking">
+            <h2 class="price">390 php</h2>
+            <a href="booking.html" class="btn">Buy tickets</a>
+          </div>
+        </div>
+        <div class="current-movie">
+          <div class="cm-img-box">
+            <img src="images/avengers2.jpg" alt="Avengers 2">
+          </div>
+          <h3 class="movie-title">Avengers: Age of Ultron</h3>
+          <p class="screen-name">Screen: Platinum</p>
+          <div class="booking">
+            <h2 class="price">300 php</h2>
+            <a href="booking.html" class="btn">Buy tickets</a>
+          </div>
+        </div>
+        <div class="current-movie">
+          <div class="cm-img-box">
+            <img src="images/thor-love-and-thunder-2022-2.jpg" alt="thor-love-and-thunder-2022-2">
+          </div>
+          <h3 class="movie-title">Thor 2022</h3>
+          <p class="screen-name">Screen: silver</p>
+          <div class="booking">
+            <h2 class="price">350 php</h2>
+            <a href="booking.html" class="btn">Buy tickets</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   <script src="script.js"></script>
+</body>
+</html>

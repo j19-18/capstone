@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(33, 55, 153) ;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.Regcontainer {
+  width: 380px;
+  height: 100%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px #333;
+  margin-top: 100px;
+}
+
+.Regtitle {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.Regtitle h1 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 80px;
+}
+
+.Regform {
+  text-align: center;
+}
+
+.Regform input,
+button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.Regform .radio_btn {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+.Regform input[type="radio"] {
+  width: 22px;
+  height: 25px;
+  margin: 0 32px;
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: .5rem 1rem;
+    background-color: #83acf1;
+    border-radius: 2rem;
+    border: 1px ;
+    color: black;
+    transition: .3s;
+    letter-spacing: 1px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 5px #555;
+  background-color: #7799d4;
+}
+
+.Regform input:hover {
+  box-shadow: 2px 2px 5px #555;
+  background-color: #ddd;
+}
+
+.Regform span {
+  position: relative;
+}
